@@ -1,0 +1,139 @@
+@media only screen and (max-width : 768px) {
+	body {
+		font-size: 100%;
+	}
+	
+	.header-block {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		flex-direction: column;
+	}
+	
+	.logo img {
+		padding: 50px 20px 20px 20px;
+	}
+	
+	.menu-slogan {
+		align-items: center;
+		padding-right: 0px;
+		padding-bottom: 40px;
+        text-align: center;
+	}
+	
+	.p-bold p {
+		margin: 0; 
+	}
+	
+	.p-italic {
+		padding-bottom: 40px;
+	}
+	
+	.footer-block {
+	height: 200px;
+	}
+
+	/*About us Page*/
+	.main-content-about {
+		display: flex;
+		flex-direction: column-reverse;
+	}
+
+	.card-team {
+		display: flex;
+		justify-content: space-around;
+		flex-direction: row;
+	}
+
+	.description-about {
+	padding-bottom: 35px;
+	}
+
+	.description-about-head {
+		text-align: center;
+	}
+}
+
+
+@media only screen and (max-width : 480px) {
+	body {
+		font-size: 100%;
+	}
+	
+	.header-block {
+		display: flex;
+		justify-content: center;
+		flex-direction: column;
+	}
+	
+    .menu-slogan {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        padding-right: 0px;
+        text-align: center;
+    }
+
+	.navbar ul {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		flex-direction:column;
+		flex-wrap: nowrap;
+        margin: 0;
+        padding: 0;
+	}
+
+	.navbar a {
+		border-left: none;
+		line-height: 40px;
+		padding: 10px;	
+	}
+
+    .navbar {
+        padding-top: 30px;
+        padding-bottom: 10px;
+    }
+
+	.main-contenthome {
+		height: 960px;
+	}
+	
+	.p-bold {
+        padding: 0px 15px;
+
+	}
+	
+	.p-italic {
+		padding: 0px 25px 40px;
+	}
+
+
+	.footer-block {
+        height: 230px;
+        text-align: center;
+	}
+	
+	/*About us Page*/
+	.main-content-about {
+		display: flex;
+		flex-direction: column-reverse;
+	}
+
+	.card-team {
+		display: flex;
+		justify-content: space-around;
+		flex-direction: row;
+	}
+
+	.description-about {
+	padding: 25px 25px;
+	}
+
+	.description-about-head {
+		text-align: center;
+	}
+}
+
+

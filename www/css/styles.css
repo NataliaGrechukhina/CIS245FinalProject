@@ -1,0 +1,201 @@
+*{
+    box-sizing: border-box;
+	font-family: 'Montserrat', sans-serif;
+}
+
+body{
+	background-color:#2c2126;
+    font-size: 18px;
+	overflow-x: hidden;
+	margin: 0 auto;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+
+.header-block {
+    display: flex;
+    justify-content: space-between;
+	background-color:#C291A8;
+}
+
+.logo {
+	display: flex;
+	justify-content: center;
+
+}
+
+.logo img {
+	width: 85%;
+	padding: 20px;
+}
+
+.menu-slogan {
+	display: flex;
+	justify-content: center;
+    align-items: flex-end;
+	flex-direction: column;
+	padding-right: 40px;
+}
+
+	
+h1 {
+	color: #ffffff;
+	font-family: 'Georgia';
+	font-size: 35px;
+	font-weight: bold;
+	font-style: normal;
+	letter-spacing: normal;
+	line-height: 30px;
+	text-shadow: 1px 1px 3px #000000;
+	font-style: normal;
+	letter-spacing: normal;
+	line-height: normal;
+	text-transform: uppercase;
+}
+
+
+.navbar li {
+	float: left;
+	padding: 0;
+	margin: 0;
+	list-style: none;
+}
+
+.navbar a {
+	font-size: 13px;	
+	color: #fff;
+	font-weight: 600;
+	text-transform: uppercase;
+	text-decoration: none;
+	padding: 5px 10px;
+	border-left: 2px solid #fff;
+	-webkit-transition: all .3s;
+	-moz-transition: all .3s;
+	-o-transition: all .3s;
+	transition: all .3s;
+}
+
+.navbar a:hover {
+	background-color: #e7bdd4;
+}
+
+.active {
+	background-color: #e7bdd4;
+}
+
+
+/*------------------Main Content--------------------*/
+.main-contenthome {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	background-image: url(../images/fon.png);
+	background-size: cover;
+	height: 770px;
+    margin: 0 auto
+}
+
+.p-bold {
+	color: #ffffff; 
+	font-family: Georgia; 
+	font-size: 50px; 
+	font-weight: bold;
+	font-style: normal; 
+	letter-spacing: 1px; 
+	line-height: 75px; 
+	text-align: center; 
+	text-transform: uppercase; 
+	font-style: normal;
+	line-height: normal;
+	-webkit-text-stroke: 1.5px #C291A8;
+	text-shadow: 3px 3px 4px #000000;
+}
+
+.p-italic {
+	color: #ffffff;   
+	font-family: Georgia;   
+	font-size: 35px;   
+	font-style: italic;
+	letter-spacing: normal;   
+	line-height: 27px;   
+	text-align: center; 
+	letter-spacing: normal;  
+	line-height: normal;
+	padding-bottom: 60px;
+	-webkit-text-stroke: 0.5px #000000;
+	text-shadow: 3px 3px 4px #000000;
+}
+
+.button {
+	display: flex;
+  	align-items: center;
+  	justify-content: center;
+	width: 200px;
+	height: 45px;
+	color: #ffffff;
+	background-color: #f50057;
+	font-family: Georgia;
+	text-decoration: none;
+	cursor: pointer;
+	text-transform: uppercase;
+	border: 1px solid #e7bdd4;
+	border-radius: 4px;
+	-webkit-transition: all .3s;
+	-moz-transition: all .3s;
+	-o-transition: all .3s;
+	transition: all .3s;
+}
+
+.button:hover {
+	background-color: #c80046;
+}
+
+/*About us Page*/
+
+.main-content-about {
+	display: flex;
+	flex-direction: row;
+}
+
+.card-team {
+	background-color: #E7BDD4;
+	padding: 30px 100px 0px;
+}
+
+.card-team figcaption {
+	font-size: 13px;
+	color: #ffffff;
+	text-decoration: none;
+	text-transform: uppercase;
+	text-shadow: 1px 1px 4px #000000;
+}
+
+.description-about {
+	background-color: #ffffff;
+	padding: 30px 100px 0px;
+}
+
+/*----------------Footer-----------*/
+.footer-block {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	height: 150px;
+	background-color:#735664;
+}
+
+.footer-block p {
+	font-size: 16px;
+	color: #e7bdd4;
+	margin: 2px;
+}
+
+.footer-block a {
+	color: #e7bdd4;
+}
